@@ -1,6 +1,14 @@
 .text {
     background-color:#ffb6c1;
-    color: #000000;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+#word {
+color: #0000ff;
+font-size: 36px;
+}
+
+#phrase {
+background-color: #90ee90;
+font-weight: bold;
+}

@@ -1,13 +1,13 @@
-.para{
+.para {
   color: hsl(0, 100%, 50%);
-}
-
-.para.small-para {
-  font-size: 12px;
 }
 
 .para {
   font-size: 22px;
+}
+
+.para.small-para {
+  font-size: 12px;
 }
 
 #confirm-button {
@@ -23,12 +23,13 @@
   font-size: 20px;
 }
 
-div.child {
-  color: red;
-  font-size: 14px;
-}
-
 .text {
   color: green;
   font-size: 28px;
 }
+
+.text > .child {
+  color: red;
+  font-size: 14px;
+}
+

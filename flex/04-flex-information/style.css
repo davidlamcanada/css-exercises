@@ -5,11 +5,27 @@ body {
 img {
   width: 100px;
   height: 100px;
+  margin: 0 52px;
 }
 
 .title {
   font-size: 36px;
   font-weight: 900;
+  display: flex;
+  justify-content: center;
+  margin: 0 0 32px 0;
+}
+
+.items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 52px;
+}
+
+.text {
+  text-align: center;
+  width: 200px;
 }
 
 /* do not edit this footer */
@@ -24,3 +40,4 @@ img {
   justify-content: center;
   background: #eee;
 }
+
